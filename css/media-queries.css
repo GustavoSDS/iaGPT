@@ -1,0 +1,15 @@
+form {
+    & input {
+        @media screen and (max-width: 768px) {
+            width: 75dvw;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 70dvw;
+        }
+
+        @media screen and (max-width: 320px) {
+            width: 60dvw;
+        }
+    }
+}
